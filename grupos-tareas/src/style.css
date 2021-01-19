@@ -1,0 +1,1000 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";  
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+ }
+
+ body .ui-inputgroup{
+  width: 100%;
+  }
+
+ .margen-top{
+    margin-top: 1em;
+  }
+ 
+  .margen-bottom{
+    margin-bottom: 1em;
+  }
+   
+
+
+  /*tabla header inicio*/
+
+  .tablaHeaderAccion1 {
+    text-align:center!important;width:80px !important; 
+  }
+  .tablaHeaderckeckselect {
+    text-align:center!important;width:60px;
+  }
+  .tablaHeaderAccion2 {
+    text-align:center!important;width:80px !important;
+  }
+  .tablaHeaderAccion3 {
+    text-align:center!important;width:110px!important;
+  }
+  .tablaHeaderAccion4 {
+    text-align:center!important;width:140px;
+  }
+  .tablaHeaderAccion5 {
+    text-align:center!important;width:160px;
+  }
+  .tablaHeaderAccion6 {
+    text-align:center!important;width:180px;
+  }
+  .tablaHeaderAccion7 {
+    text-align:center!important;width:200px;
+  }
+  
+  
+  .tablaHeaderCodigoChico {
+    text-align:center!important;width: 80px !important;
+  }
+  .tablaHeaderCheckBox {
+    text-align:center!important;width:50px;
+  }
+
+  .tablaHeaderCheckBoxTextoMedio {
+    text-align:center!important;width:100px;
+  }
+
+  .tablaHeaderCheckBoxTextoChico {
+    text-align:center!important;width:80px;
+  }
+
+
+  .tablaHeaderCodigo {
+    text-align:center!important;width:100px !important;
+  }
+  .tablaHeaderCodigoGrande {
+    text-align:center!important;width:120px !important;
+  }
+  .tablaHeaderUsuario {	/* login de usuario*/	
+    text-align:center!important;width:120px !important;
+  }
+  .tablaHeaderDocumento {	/*numero de documento*/	
+    text-align:center!important;width:100px !important;
+  }
+  .tablaHeaderFecha {
+    text-align:center!important;width:100px !important;
+  }
+  .tablaHeaderFecha2 {
+    text-align:center!important;width:120px !important;
+  }
+
+  .tablaHeaderFechayHora {
+    text-align:center!important;width:180px !important;
+  }
+
+  .tablaHeaderFechaEnGrilla {
+    text-align:center!important;width:200px !important;
+  }
+  .tablaHeaderFechaEnGrilla3 {
+    text-align:center!important;width:300px !important; 
+  }
+  .tablaHeaderFechaHora {
+    text-align:center!important;width:100px !important;
+  }
+  .tablaHeaderHora {
+    text-align:center!important;width:100px !important;
+  }
+  
+  .tablaHeaderDia {
+    text-align:center!important;width:100px!important;
+  }
+  .tablaHeaderPeriodo {
+    text-align:center!important;width:100px !important;
+  }
+  .tablaHeaderMonto {
+    text-align:center!important;width:100px !important;
+  }
+  .tablaHeaderNumero {
+    text-align:center!important;width:100px  !important;
+  }
+  .tablaHeaderNumeroCentro {
+    text-align:center!important;width:100px!important;
+  }
+  .tablaHeaderCien {
+    text-align:center!important;width:120px !important;
+  }
+  
+  .tablaHeaderDoscien {
+    text-align:center!important;width:200px !important;
+  }
+  
+  .tablaHeaderEstado {
+    text-align:center!important;
+    width:120px!important;
+  }
+  
+  .tablaHeaderTipo {
+    text-align:center!important;
+    width:160px !important;
+  }
+  
+  .tablaHeaderNombreGrande {
+    text-align:center!important;width:450px!important;
+  }	
+  .tablaHeaderNombreGrandeChico {
+    text-align:center!important;width:350px!important;
+  }	
+  
+  
+
+  .tablaHeaderNombre {
+    text-align:center!important;width:300px!important;
+  }	
+  
+  .tablaHeaderNombreChico {
+    text-align:center!important;width:150px !important;
+  }	
+  
+  .tablaHeaderNombreMedio {
+    text-align:center!important;width:200px!important;
+  }	
+  
+  .tablaHeaderUbigeo {
+    text-align:center!important;width:240px!important;
+  }
+  
+  .tablaHeaderUbigeoGrande {
+    text-align:center!important;width:350px!important;
+  }
+  .tablaHeaderCorreo {
+    text-align:center!important;width: 200px!important;
+  }
+  .tablaHeaderDireccion {
+    text-align:center!important;width:400px!important;
+  }	
+  
+  .tablaHeaderNombreGrandeEvento {
+    text-align:center!important;width:480px!important;
+  }	
+  
+  .tablaHeaderCentro {
+    text-align:center!important;
+    width: 200px !important;
+  }
+
+  .tablaHeaderDescripcion {
+    text-align:center!important;width: 230px;
+  }
+  .tablaHeaderIzquierda {
+    text-align:center!important;  
+  }
+  
+  .tablaHeaderTelefono{
+    text-align:center!important;
+    width: 150px !important;
+  }
+  .tablaHeaderCelular{
+    text-align:center!important;
+    width: 150px !important;
+  }
+  
+  .tablaHeaderCienSesenta{
+    text-align:center!important;width:160px;
+  }
+  /*tabla header fin*/
+
+
+  /*tabla columna inicio*/
+  .tablaColumnaAccion1 {
+    text-align:center !important;width:80px !important;
+  }
+  
+  .tablaColumnaAccion2 {
+    text-align:center !important;width:80px !important;
+  }
+  .tablaColumnaAccion3 {
+    text-align:center !important;width:110px !important;
+  }
+  .tablaColumnaAccion4 {
+    text-align:center !important;width:140px !important;
+  }
+  .tablaColumnaAccion5 {
+    text-align:center !important;width:160px !important;
+  }
+  .tablaColumnaAccion6 {
+    text-align:center !important;width:180px !important;
+  }
+  
+  .tablaColumnaAccion7 {
+    text-align:center !important;width:200px !important;
+  }
+  
+  .tablaColumnaCodigoChico {
+    text-align:center !important;width:80px !important;
+  }
+  .tablaColumnaCheckBox {
+    text-align:center !important ;width:50px!important;
+  }
+
+  .tablaColumnaCheckBoxTextoMedio{
+    text-align:center !important;width:100px !important;
+  }
+
+  .tablaColumnaCheckBoxTextoChico {
+    text-align:center!important;width:80px;
+  }
+
+
+  
+  .tablaCheckBoxCentro{
+    justify-content: center !important;
+    align-items: center  !important;
+  }
+  
+  .tablaColumnaCodigo {
+    text-align:center !important; width:100px !important;
+  }
+  .tablaColumnaCodigoGrande {
+    text-align:center;width:120px!important;
+  }
+  .tablaColumnaUsuario {	/* login de usuario*/	
+    text-align:center !important;width:120px !important;
+  }
+  .tablaColumnaDocumento {	/*numero de documento*/	
+    text-align:center;width:100px !important;
+  }
+  .tablaColumnaFecha {
+    text-align:center!important;width:100px !important;
+  }
+  .tablaColumnaFecha2 {
+    text-align:center !important;width:120px !important;
+  }
+  .tablaColumnaFechayHora {
+    text-align:center !important;width:180px !important;
+  }
+  .tablaColumnaFechaEnGrilla {
+    text-align:center !important;width:200px !important; 
+  }
+  .tablaColumnaFechaEnGrilla3 {
+    text-align:center !important;width:300px !important;
+  }
+  .tablaColumnaFechaHora {
+    text-align:center !important;width:100px!important;
+  }
+  .tablaColumnaHora {
+    text-align:center !important;width:100px !important;
+  }
+  
+  .tablaColumnaDia {
+    text-align:center !important;width:100px!important;
+  }
+  .tablaColumnaPeriodo {
+    text-align:center !important;width:100px!important;
+  }
+  .tablaColumnaMonto {
+    text-align:right !important;width:100px!important;
+  }
+  .tablaColumnaMonto2 {
+    text-align:right!important;width:120px!important;
+  }
+  .tablaColumnaNumero {
+    text-align:right!important;width:100px!important;
+  }
+  .tablaColumnaNumeroCentro {
+    text-align:center!important;width:100px!important;
+  }
+
+  .tablaColumnaEstado {
+    text-align:center!important ;
+    width:120px !important;
+    margin-left: -10px !important;
+    margin-right: -10px !important;
+  }
+  
+  .tablaColumnaEstadoDetalle {
+    text-align:center !important;width:160px !important;
+  }
+  
+  .tablaColumnaTipo {
+    text-align:center!important;width:160px!important;
+  }
+  
+  .tablaColumnaCien {
+    text-align:center !important;width:120px!important;
+  }
+  
+  .tablaColumnaDoscien {
+    text-align:center !important;width:200px !important;
+  }
+
+  .tablaColumnaNombreGrandeChico {
+    text-align:center!important;width:350px!important;
+  }
+
+  
+  .tablaColumnaNombreGrande {
+    text-align:left !important;width:450px !important;
+  }	
+
+  .tablaColumnaNombre {
+    color: white !important;
+    text-align:left !important;width:300px !important;
+  }	
+  
+  .tablaColumnaNombreGrandeEvento {
+    text-align:left !important;width:480px !important;
+  }	
+  
+  .tablaColumnaNombreChico {
+    text-align:left !important;width:150px !important; 
+  }	
+  .tablaColumnaNombreMedio {
+    text-align:left !important;width:200px !important;
+  }	
+  
+  .tablaColumnaUbigeo {
+    text-align:left !important;width:240px !important;
+  }
+  
+  .tablaColumnaUbigeoGrande {
+    text-align:left !important;width:350px !important;
+  }
+  .tablaColumnaCorreo {
+    text-align:left !important ;width:200px !important;
+  }
+  .tablaColumnaDireccion {
+    text-align:left !important;width:400px !important;
+  }	
+  .tablaColumnaCentro {
+    text-align:center !important;
+    width: 200px !important;
+
+  }
+  .tablaColumnaDescripcion {
+    text-align:left !important; width:230px;
+  }
+  .tablaColumnaIzquierda {
+    text-align:left;
+  }
+  .tablaColumnaDerecha {
+    text-align:right;
+  }
+  
+  .tablaCompletaDerecha{
+    text-align:right;
+    width: 100%;
+  }
+  .tablaCompletaCentro{
+    text-align:center;
+    width: 100%;
+  }
+  .tablaCompletaIzquieda{
+    text-align:left;
+    width: 100%;
+  }
+  .tablaColumnaTelefono{
+    text-align:center;
+    width: 150px;
+  }
+  .tablaColumnaCelular{
+    text-align:center;
+    width: 150px;
+  }
+  
+  .tablaColumnaCienSesenta {
+    text-align:center;width:160px;
+  }
+
+  
+  /*tabla columna fin*/
+
+.estilo100porciento{
+  width: 100%!important;
+}
+
+.espacioEntreCheckBox{
+  padding-right: 10px;
+}
+
+/* Estilos TABLE ===>>>> */
+
+
+   /* ESTILOS GRILLA */
+
+  /* ESTILOS HEADER */
+.p-datatable .p-datatable-thead > tr > th {
+   padding: 1rem 1rem !important;
+  border: 1px solid #e9ecef !important;
+  border-width: 4px 1PX 1px 0 !important;
+  font-weight: 650 !important;
+  color: #495057 !important;
+  background: #ffffff !important;
+}
+
+.iconogrilla {
+  border-radius: 19px !important;
+  margin-right: 8px;
+  background: #1c2937 !important;
+  border-color: #1c2937;
+  font-size: 20px;
+}
+.p-datatable-scrollable-header-box{
+  padding-right: 0px !important;
+}
+
+/* <======= ESTILOS TABLA  */
+
+
+
+
+/* Button =>>>>>> */
+
+.p-button {
+  padding: 0.3rem 1rem !important; 
+  color: #ffffff ;
+  background: #3b94f1 ;
+}
+.btn-amarillo{
+  background-color: #EEBC42;
+  width: 100%;
+  text-align: center;
+  border:solid #f1f1ee;
+  border-radius: 9px;
+  padding: 0.3rem 1rem !important; 
+}
+
+.btn-amarillo:hover {
+  background-color: #dbb042 !important;
+  width: 100% !important;
+  text-align: center !important;
+  border:solid #f1f1ee !important;
+  border-radius: 9px  !important;
+  padding: 0.3rem 1rem !important; 
+ 
+}
+
+.btn-inactivar{
+  background-color: #EEBC42 !important;
+  border:solid  #EEBC42 !important;
+  padding: 0.3rem  !important; 
+}
+
+.btn-informativos{
+  background-color: #3b94f1 !important;
+  border:solid  #3b94f1 !important;
+  padding: 0.3rem 1rem !important; 
+}
+
+
+.btn-eliminados {
+  background-color: #DE3F37 !important;
+  border:solid  #DE3F37 !important;
+  padding: 0.3rem 1rem !important; 
+}
+
+.btn-anulado {
+  background-color: #b62f28 !important;
+  border:solid  #b62f28 !important;
+  padding: 0.3rem 1rem !important; 
+  width: 100% !important;
+
+}
+
+.btn-pendiente {
+  background-color: #a3a3a3 !important;
+  border:solid  #a3a3a3 !important;
+  padding: 0.3rem 1rem !important; 
+  width: 100% !important;
+}
+
+.btn-error {
+  background-color: #5f1414 !important;
+  border:solid  #5f1414 !important;
+  padding: 0.3rem 1rem !important; 
+  width: 100% !important;
+}
+
+.btn-enviado {
+  background-color: #488a4d !important;
+  border:solid  #488a4d !important;
+  padding: 0.3rem 1rem !important; 
+  width: 100% !important;
+}
+
+
+.btn-aceptar {
+  background-color: #469c4e !important;
+  border:solid  #469c4e !important;
+  padding: 0.3rem 1rem !important; 
+  width: 100% !important;
+}
+.btn-cancelar {
+  background-color: #bd2828 !important;
+  border:solid  #bd2828 !important;
+  padding: 0.3rem 1rem !important; 
+  width: 100% !important;
+}
+
+
+
+.btn-cambiar-estado{
+  background-color: #62D559 !important;
+  border:solid #62D559 !important;
+  padding: 0.3rem 1rem !important; 
+}
+.p-menu .p-menuitem-link {
+ color: #fff !important;
+}
+
+.layout-topbar .menu-button {
+  background: #5d6166 !important; 
+  color: white !important;  
+}
+
+/* <<<<<= Button  */
+
+
+
+/* imput =>>>>>> */
+
+.p-inputtext {
+  padding: 0.4rem 0.5rem !important; 
+}
+/* <<<<<= imput  */
+
+/* FIELSET =>>>>>> */
+.p-fieldset.p-fieldset-toggleable .p-fieldset-legend {
+    background-color: #17c393 !important;
+    height :38px;
+}
+
+.p-fieldset.p-fieldset-toggleable .p-fieldset-legend a {
+  color: white !important;
+  height :38px;
+}
+
+
+/* FIELSET NORMAL SIN ICONO */
+.p-fieldset .p-fieldset-legend {
+  color: white !important;
+  background-color: #17c393 !important;
+}
+/* <<<<<= FIELSET  */
+
+/* EDIT CONTAINER =>>>>>> */
+.p-editor-container .p-editor-toolbar.ql-snow {
+  background: #347dc5 !important;
+}
+.p-editor-container .p-editor-toolbar.ql-snow .ql-picker .ql-picker-label {
+
+  color: white !important;
+}
+
+.p-editor-container .p-editor-toolbar.ql-snow .ql-stroke {
+  stroke: #ffffff;
+}
+/* <<<<<= EDIT CONTAINER  */
+
+
+
+
+/* TAB NAV  =>>>>>> */
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  background: #17c393 !important;
+  border-color: #2196F3;
+  color: #ffffff;
+}
+
+/*  */
+/* <<<<<= TAB NAV  */
+
+
+/*
+  Colorews 
+*/
+
+
+
+
+
+/* BLOCKED */
+.p-blockui-document{
+  z-index: 11500 !important;
+}
+
+.tablaBotonActivo {
+  color: white !important;
+  background-color: #00a14b !important;
+  border: 1px solid #00a14b !important;
+  width: 100%;
+}
+
+ 
+.tablaBotonInactivo {
+  color: #fff !important;
+  background-color: #e91224!important;
+  border: 1px solid #e91224!important;
+  width: 100%;
+  }
+
+  
+  
+  /*.p-datatable .p-datatable-thead > tr > th {
+    text-align: center !important;
+  } 
+
+  .p-datatable .p-datatable-tbody > tr > td {
+  text-align: center !important;
+  }*/
+  .p-datatable .p-datatable-tbody > tr > td:disabled {
+   text-align:center;
+}
+
+  @media screen and (max-width: 960px){
+    .p-button{
+      margin-bottom: 0 !important;
+    }
+
+    
+  }
+ 
+
+  /*
+  TextArea Padding
+  */
+
+  .paddingTextArea {
+     padding: 0 !important;
+   }
+
+   /*Label*/
+   label{
+     margin-top: .5rem;
+   }
+
+   /***
+   Bottom Margin
+   */
+
+   .p-field.p-grid, .p-formgrid.p-grid {
+    /* margin-top: 7px; */
+    margin-bottom: 17px !important;
+}
+
+
+/*Formulario Parametros de servicio*/
+
+.alert-danger {
+  color: #721c24;
+  background: #f8d7da;
+  border-color: #f5c6cb;
+  margin-bottom: 5px;
+}
+
+.container-error-message {
+  padding: 3px;
+}
+
+
+.ui-inputgroup {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.inputPicker{
+  padding: 0 !important;
+}
+
+/*Color Picker*/
+.relleno-color-picker{
+  padding: .5rem;
+  width: 15% !important;
+  border: 1px solid #000 !important;
+  pointer-events: all;
+  cursor: pointer;
+}
+ 
+
+/* BOTONES SOLO ICONOS */
+.tablaBotonIcono{
+  background-color: #fff !important;
+  border: 1px solid #000 !important;
+  border-radius: 50%;
+  color: #00a14b;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0) !important;
+  margin-right: 10px !important;
+}
+/*
+.tablaBotonIconoSelector{
+  background-color: #ffffff00 !important;
+   border: 1px solid #ffffff00 !important;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0) !important;
+  margin-right: 10px !important;
+}*/
+
+  
+.tablaBotonIconoSelector{
+  background-color: #ffffff00 !important;
+  /* se modifico con b  orde */
+  /* border: 1px solid #ffffff00 !important;*/
+  border: 1px solid #02814E;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0) !important;
+  margin-right: 10px !important;
+}
+
+/*
+**
+Avatar Letra
+**
+*/
+
+.cirlcle-avatar{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-avatar{
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.initials {
+  color:  #fff;
+  font-size: 20px;
+   letter-spacing: 0.2625px;
+}
+
+.cirlcle-avatar:hover  {
+background: none !important;
+ }
+
+
+ @media screen and (max-width: 600px){
+/*tabla header inicio*/
+ 
+/*tabla columna inicio*/
+.tablaColumnaAccion1 {
+  text-align:left !important;width:100% !important;
+}
+
+.tablaColumnaAccion2 {
+  text-align:left !important;width:100%  !important;
+}
+.tablaColumnaAccion3 {
+  text-align:left !important;width:100%  !important;
+}
+.tablaColumnaAccion4 {
+  text-align:left !important;width:100%  !important;
+}
+.tablaColumnaAccion5 {
+  text-align:left !important;width:100%  !important;
+}
+.tablaColumnaAccion6 {
+  text-align:left !important;width:100%  !important;
+}
+
+.tablaColumnaAccion7 {
+  text-align:left !important;width:100%  !important;
+}
+
+.tablaColumnaCodigoChico {
+  text-align:left !important;width:100%  !important;
+}
+.tablaColumnaCheckBox {
+  text-align:left !important ;width:100% !important;
+}
+
+.tablaColumnaCheckBoxTextoMedio{
+  text-align:left !important;width:100%  !important;
+}
+
+.tablaColumnaCheckBoxTextoChico {
+  text-align:left!important;width:100% ;
+}
+
+
+ 
+
+.tablaColumnaCodigo {
+  text-align:left !important; width:100%  !important;
+}
+.tablaColumnaCodigoGrande {
+  text-align:left;width:100% !important;
+}
+.tablaColumnaUsuario {	/* login de usuario*/	
+  text-align:left !important;width:100%  !important;
+}
+.tablaColumnaDocumento {	/*numero de documento*/	
+  text-align:left;width:100%  !important;
+}
+.tablaColumnaFecha {
+  text-align:left!important;width:100%  !important;
+}
+.tablaColumnaFecha2 {
+  text-align:left !important;width:100%  !important;
+}
+.tablaColumnaFechayHora {
+  text-align:center !important;width:100%  !important;
+}
+.tablaColumnaFechaEnGrilla {
+  text-align:left !important;width:100%  !important; 
+}
+.tablaColumnaFechaEnGrilla3 {
+  text-align:left !important;width:100%  !important;
+}
+.tablaColumnaFechaHora {
+  text-align:left !important;width:100% !important;
+}
+.tablaColumnaHora {
+  text-align:left !important;width:100%  !important;
+}
+
+.tablaColumnaDia {
+  text-align:left !important;width:100% !important;
+}
+.tablaColumnaPeriodo {
+  text-align:left !important;width:100% !important;
+}
+.tablaColumnaMonto {
+  text-align:left !important;width:100% !important;
+}
+.tablaColumnaMonto2 {
+  text-align:left!important;width:100% !important;
+}
+.tablaColumnaNumero {
+  text-align:left!important;width:100% !important;
+}
+.tablaColumnaNumeroCentro {
+  text-align:left!important;width:100% !important;
+}
+
+.tablaColumnaEstado {
+  text-align:left!important ;
+  width:100%  !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.tablaColumnaEstadoDetalle {
+  text-align:left !important;width:100%  !important;
+}
+
+.tablaColumnaTipo {
+  text-align:left!important;width:100% !important;
+}
+
+.tablaColumnaCien {
+  text-align:left !important;width:100% !important;
+}
+
+.tablaColumnaDoscien {
+  text-align:left !important;width:100%  !important;
+}
+
+.tablaColumnaNombreGrandeChico {
+  text-align:left !important;width:100% !important;
+}
+
+
+.tablaColumnaNombreGrande {
+  text-align:left !important;width:100%  !important;
+}	
+
+.tablaColumnaNombre {
+  text-align:left !important;width:100%  !important;
+}	
+
+.tablaColumnaNombreGrandeEvento {
+  text-align:left !important;width:100%  !important;
+}	
+
+.tablaColumnaNombreChico {
+  text-align:left !important;width:100%  !important; 
+}	
+.tablaColumnaNombreMedio {
+  text-align:left !important;width:100%  !important;
+}	
+
+.tablaColumnaUbigeo {
+  text-align:left !important;width:100%  !important;
+}
+
+.tablaColumnaUbigeoGrande {
+  text-align:left !important;width:100%  !important;
+}
+.tablaColumnaCorreo {
+  text-align:left !important ;width:100%  !important;
+}
+.tablaColumnaDireccion {
+  text-align:left !important;width:100%  !important;
+}	
+.tablaColumnaCentro {
+  text-align:left !important;
+  width: 100% !important;
+}
+
+.tablaColumnaFechayHora {
+  text-align:left !important;width:100%  !important;
+}
+
+ }
+
+.p-datatable .p-datatable-thead > tr > th {
+  padding: 1rem 1rem !important;
+  border: 1px solid #1C2937 !important;
+  border-width: 4px 1PX 1px 0 !important;
+  font-weight: 650 !important;
+  color: white !important;
+  background:#1C2937 !important;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+  border-top: 1px solid #1E92EB !important;
+  color:#8E9399;
+  background-color: #1C2937;
+  border-width: 1PX 1PX 1px 0 !important;
+  padding: 4px 2px !important;
+  border: none;
+  font-size: 19px;
+}
+
+.p-button .p-button-icon-left {
+  /* margin-right: 0.5rem; */
+  padding-left: 9px;
+}
+
+.p-dialog .p-dialog-content {
+  background: #1C2937;
+  color: #495057;
+  padding: 0 1.5rem 2rem 1.5rem;
+}
+
+.p-dialog .p-dialog-header {
+  border-bottom: 0 none;
+  background: #ffffff;
+  color: #495057;
+  padding: 1.5rem;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  display: none;
+}
+
+.p-dialog .p-dialog-footer {
+  border-top: 0 none;
+  background: #ffffff;
+  color: #495057;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  text-align: right;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background: #1C2937;
+}
+.p-dialog.p-confirm-dialog .p-confirm-dialog-icon {
+  font-size: 2rem;
+  color: white;
+}
+
+.p-dialog.p-confirm-dialog .p-confirm-dialog-message {
+  margin-left: 1rem;
+  color: white;
+}

@@ -1,0 +1,14 @@
+D:\PROYECTO-COMSATEL\api\src\main\java\comsatel\spring\dominio\ComGrupoDetallePk.java
+D:\PROYECTO-COMSATEL\api\src\main\java\comsatel\spring\dominio\ComGrupo.java
+D:\PROYECTO-COMSATEL\api\src\main\java\comsatel\spring\rest\ComsatelGruposTareasRest.java
+D:\PROYECTO-COMSATEL\api\src\main\java\comsatel\spring\dominio\dto\DtolistarGrupoDetalle.java
+D:\PROYECTO-COMSATEL\api\src\main\java\comsatel\spring\servicio\impl\ComsatelGruposTareasServicioImpl.java
+D:\PROYECTO-COMSATEL\api\src\main\java\comsatel\spring\boot\App.java
+D:\PROYECTO-COMSATEL\api\src\main\java\comsatel\spring\dao\impl\ComGrupoDetalleDaoImpl.java
+D:\PROYECTO-COMSATEL\api\src\main\java\comsatel\spring\filtros\FiltroPaginacion.java
+D:\PROYECTO-COMSATEL\api\src\main\java\comsatel\spring\dominio\ComGrupoDetalle.java
+D:\PROYECTO-COMSATEL\api\src\main\java\comsatel\spring\servicio\impl\ComGrupoDetalleServicioImpl.java
+D:\PROYECTO-COMSATEL\api\src\main\java\comsatel\spring\dao\impl\ComsatelGruposTareasDaoImpl.java
+D:\PROYECTO-COMSATEL\api\src\main\java\comsatel\spring\dominio\ComGrupoPk.java
+D:\PROYECTO-COMSATEL\api\src\main\java\comsatel\spring\boot\HibernateConfiguration.java
+D:\PROYECTO-COMSATEL\api\src\main\java\comsatel\spring\boot\ComsatelConstanteBoot.java

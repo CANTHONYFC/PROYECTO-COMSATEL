@@ -1,0 +1,49 @@
+# C:\Users\YOU\AppData\Roaming\npm\node_modules\@angular
+
+# desinstalar angular cli
+npm uninstall -g @angular/cli
+npm cache clean
+
+# instalar angular cli
+npm install -g @angular/cli
+npm install -g @angular/cli@latest
+npm install @angular/cli@6.1.1
+
+# crear nuvo proyecto
+ng new web-portal
+
+
+#
+ng v
+
+# instalar segun json
+npm install 
+
+# instalar prime ng
+npm install primeng --save
+npm install primeicons --save
+npm install font-awesome --save
+npm install @angular/cdk --save
+
+# crear componentes
+ng generate component book-data
+ng generate service book
+
+ng build --prod
+
+ng add @angular/material
+ng add _____s
+ng add @angular/pwa
+ng test
+
+# extenciones
+Bracket Pair Colorizer
+Debugger for Chrome
+Path Intellisense
+Prettier
+Angular Snippets (Version 9)
+Angular Language Service
+
+TODO Highlight
+Todo Tree
+

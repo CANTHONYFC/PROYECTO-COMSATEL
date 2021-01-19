@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <sql-query name="comgrupo.listarcompletados">
+    		<![CDATA[
+select c.id,c.nombre,c.estado,(select COUNT(1) from COM_GRUPO_DETALLE dt where
+dt.idgrupo=c.id) as 'item' from COM_GRUPO c where (select COUNT(1) from COM_GRUPO_DETALLE dt where
+dt.idgrupo=c.id
+)=(select COUNT(1) from COM_GRUPO_DETALLE dt where
+dt.idgrupo=c.id and dt.estado=1)
+ ]]>
+    </sql-query>
+    
+       <sql-query name="comgrupo.contarcompletados">
+       	<![CDATA[
+select count(1) from COM_GRUPO c where (select COUNT(1) from COM_GRUPO_DETALLE dt where
+dt.idgrupo=c.id
+)=(select COUNT(1) from COM_GRUPO_DETALLE dt where
+dt.idgrupo=c.id and dt.estado=1)
+     ]]>
+    </sql-query>
+    
+    
+    
+       <sql-query name="comgrupo.listarpendientes">
+    		<![CDATA[
+select c.id,c.nombre,c.estado,(select COUNT(1) from COM_GRUPO_DETALLE dt where
+dt.idgrupo=c.id) as 'item' from COM_GRUPO c where (select COUNT(1) from COM_GRUPO_DETALLE dt where
+dt.idgrupo=c.id
+)!=(select COUNT(1) from COM_GRUPO_DETALLE dt where
+dt.idgrupo=c.id and dt.estado=1)
+ ]]>
+    </sql-query>
+    
+       <sql-query name="comgrupo.contarpendientes">
+       	<![CDATA[
+select count(1) from COM_GRUPO c where (select COUNT(1) from COM_GRUPO_DETALLE dt where
+dt.idgrupo=c.id
+)!=(select COUNT(1) from COM_GRUPO_DETALLE dt where
+dt.idgrupo=c.id and dt.estado=1)
+     ]]>
+    </sql-query>
+    
+    
+</hibernate-mapping>

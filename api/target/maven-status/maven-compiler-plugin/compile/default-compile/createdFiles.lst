@@ -1,0 +1,15 @@
+comsatel\spring\filtros\FiltroPaginacion.class
+comsatel\spring\servicio\impl\ComsatelGruposTareasServicioImpl.class
+comsatel\spring\rest\ComsatelGruposTareasRest.class
+comsatel\spring\dominio\ComGrupoDetalle.class
+comsatel\spring\dominio\ComGrupoPk.class
+comsatel\spring\boot\HibernateConfiguration.class
+comsatel\spring\dao\impl\ComGrupoDetalleDaoImpl.class
+comsatel\spring\boot\App.class
+comsatel\spring\dominio\ComGrupo.class
+comsatel\spring\dominio\ComGrupoDetallePk.class
+comsatel\spring\dao\impl\ComsatelGruposTareasDaoImpl.class
+comsatel\spring\dominio\dto\DtolistarGrupoDetalle.class
+comsatel\spring\boot\App$1.class
+comsatel\spring\boot\ComsatelConstanteBoot.class
+comsatel\spring\servicio\impl\ComGrupoDetalleServicioImpl.class

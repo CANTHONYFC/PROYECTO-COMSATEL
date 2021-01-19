@@ -1,0 +1,552 @@
+<div class="ui-fluid" #frm>
+    <!--  -->
+    <div *ngIf="objTitulo.tipo == 0" id="tituloVentana">
+        <!-- <p-panel> -->
+        <!-- <p-header> -->
+        <div class="ui-helper-clearfix">
+            <div class="p-grid">
+                <div class="p-col-12 p-md-6 p-lg-6">
+                    <div class="p-grid">
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <i class="fa fa-users" style="font-size: 1.8em; color: #495057; margin-top: 10px;"></i>
+                        </div>
+                        <div class="p-col-11 p-md-11 p-lg-11 tituloTexto">
+                            {{objTitulo.menuSeguridad.titulo}}
+                        </div>
+                    </div>
+                </div>
+                <div class="p-col-12 p-md-5 p-lg-5" style="margin-top: 5px;">
+                    <div class="p-grid">
+                        <div class="p-col-11 p-md-2 p-lg-7"></div>
+                        <div class="p-col-12 p-md-5 p-lg-5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </p-header> -->
+        <!-- </p-panel> -->
+    </div>
+
+    <!--  -->
+
+    <div *ngIf="objTitulo.tipo == 1" id="tituloVentana">
+        <!-- <p-panel> -->
+        <!-- <p-header> -->
+        <div class="ui-helper-clearfix">
+            <div class="p-grid">
+                <div class="p-col-12 p-md-6 p-lg-6">
+                    <div class="p-grid">
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <i class="fa fa-users" style="font-size: 1.5em; color: #495057; margin-top: 10px;"></i>
+                        </div>
+                        <div class="p-col-11 p-md-11 p-lg-11 tituloTexto">
+                            {{objTitulo.menuSeguridad.titulo}}
+                        </div>
+                    </div>
+                </div>
+                <div class="p-col-12 p-md-5 p-lg-5" style="margin-top: 5px;">
+                    <div class="p-grid">
+                        <div class="p-col-11 p-md-2 p-lg-7">
+                            <div class="ui-inputgroup"></div>
+                        </div>
+                        <div class="p-col-2 p-md-1 p-lg-1"></div>
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-binoculars" class="tablaBotonIcono"
+                                style="height: 25px;" title="Buscar" (click)="buscar()"></button>
+                        </div>
+                        <div class="p-col-2 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-plus" class="tablaBotonIcono"
+                                [disabled]="objTitulo.menuSeguridad.flgAgregar == false" style="height: 25px;"
+                                title="Nuevo" (click)="nuevo()"></button>
+                        </div>
+
+                        <div class="p-col-2 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-download" class="tablaBotonIcono"
+                                style="height: 25px;" title="Exportar" (click)="exportarDatos()"></button>
+                        </div>
+
+                        <div class="p-col-2 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-question-circle" class="tablaBotonIcono"
+                                style="height: 25px;" title="Ayuda" (click)="ayuda()"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </p-header> -->
+        <!-- </p-panel> -->
+    </div>
+
+    <div *ngIf="objTitulo.tipo == 2" id="tituloVentana">
+        <!-- <p-panel> -->
+        <!-- <p-header> -->
+        <div class="ui-helper-clearfix">
+            <div class="p-grid">
+                <div class="p-col-12 p-md-6 p-lg-6">
+                    <div class="p-grid">
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <i class="fa fa-users" style="font-size: 1.5em; color: #495057; margin-top: 10px;"></i>
+                        </div>
+                        <div class="p-col-11 p-md-11 p-lg-11 tituloTexto">
+                            {{objTitulo.menuSeguridad.titulo}}
+                        </div>
+                    </div>
+                </div>
+                <div class="p-col-12 p-md-5 p-lg-5" style="margin-top: 5px;">
+                    <div class="p-grid">
+                        <div class="p-col-11 p-md-2 p-lg-7">
+                            <div class="ui-inputgroup"></div>
+                        </div>
+                        <div class="p-col-1 p-md-1 p-lg-1"></div>
+                        <div class="p-col-2 p-md-1 p-lg-1"></div>
+                        <div class="p-col-2 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-binoculars" class="tablaBotonIcono"
+                                style="height: 25px;" title="Buscar" (click)="buscar()"></button>
+                        </div>
+
+                        <div class="p-col-2 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-download" class="tablaBotonIcono"
+                                style="height: 25px;" title="Exportar" (click)="exportarDatos()"></button>
+                        </div>
+
+                        <div class="p-col-2 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-question-circle" class="tablaBotonIcono"
+                                style="height: 25px;" title="Ayuda" (click)="ayuda()"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </p-header> -->
+        <!-- </p-panel> -->
+    </div>
+
+    <div *ngIf="objTitulo.tipo == 3" id="tituloVentana">
+        <!-- <p-panel> -->
+        <!-- <p-header> -->
+        <div class="ui-helper-clearfix">
+            <div class="p-grid">
+                <div class="p-col-12 p-md-6 p-lg-6">
+                    <div class="p-grid">
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <i class="fa fa-users" style="font-size: 1.5em; color: #495057; margin-top: 10px;"></i>
+                        </div>
+                        <div class="p-col-11 p-md-11 p-lg-11 tituloTexto">
+                            {{objTitulo.menuSeguridad.titulo}}
+
+                        </div>
+                    </div>
+                </div>
+                <div class="p-col-12 p-md-5 p-lg-5" style="margin-top: 5px;">
+                    <div class="p-grid">
+                        <div class="p-col-12 p-md-11 p-lg-6">
+                            <div class="ui-inputgroup"></div>
+                        </div>
+                        <div class="p-col-3 p-md-1 p-lg-1"></div>
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-binoculars" class="tablaBotonIcono"
+                                style="height: 25px;" title="Buscar" (click)="buscar()"></button>
+                        </div>
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-plus" class="tablaBotonIcono"
+                                [disabled]="objTitulo.menuSeguridad.flgAgregar == false" style="height: 25px;"
+                                title="Nuevo" (click)="nuevo()"></button>
+                        </div>
+
+                        <div class="p-col-3 p-md-3 p-lg-2">
+                            <!-- <button type="button" pButton icon="fa fa-download" class="tablaBotonIcono" style="height: 25px;"
+                                    title="Exportar" (click)="exportarDatos()"></button> -->
+                            <p-splitButton icon="fa fa-download" title="Exportar" class="tituloSplit" [appendTo]="body"
+                                style="height: 25px;" (onClick)="exportarDatos()" [model]="objTitulo.listaOtros">
+                            </p-splitButton>
+                        </div>
+
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-question-circle" class="tablaBotonIcono"
+                                style="height: 25px;" title="Ayuda" (click)="ayuda()"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </p-header> -->
+        <!-- </p-panel> -->
+    </div>
+
+
+    <div *ngIf="objTitulo.tipo == 4" id="tituloVentana">
+        <div class="ui-helper-clearfix">
+            <div class="p-grid">
+                <div class="p-col-12 p-md-6 p-lg-6">
+                    <div class="p-grid">
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <i class="fa fa-users" style="font-size: 1.5em; color: #495057; margin-top: 10px;"></i>
+                        </div>
+                        <div class="p-col-11 p-md-11 p-lg-11 tituloTexto">
+                            {{objTitulo.menuSeguridad.titulo}}
+                        </div>
+                    </div>
+                </div>
+                <div class="p-col-12 p-md-5 p-lg-5" style="margin-top: 5px;">
+                    <div class="p-grid">
+                        <div class="p-col-12 p-md-11 p-lg-6">
+                            <div class="ui-inputgroup"></div>
+                        </div>
+                        <div class="p-col-3 p-md-1 p-lg-1"></div>
+                        <div class="p-col-1 p-md-1 p-lg-1"></div>
+                        <div class="p-col-3 p-md-3 p-lg-2">
+                        </div>
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-binoculars" class="tablaBotonIcono"
+                                style="height: 25px;" title="Buscar" (click)="buscar()"></button>
+                        </div>
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-question-circle" class="tablaBotonIcono"
+                                style="height: 25px;" title="Ayuda" (click)="ayuda()"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </p-header> -->
+        <!-- </p-panel> -->
+    </div>
+
+    <div *ngIf="objTitulo.tipo == 5" id="tituloVentana">
+        <!-- <p-panel> -->
+        <!-- <p-header> -->
+        <div class="ui-helper-clearfix">
+            <div class="p-grid">
+                <div class="p-col-12 p-md-6 p-lg-6">
+                    <div class="p-grid">
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <i class="fa fa-users" style="font-size: 1.5em; color: #495057; margin-top: 10px;"></i>
+                        </div>
+                        <div class="p-col-11 p-md-11 p-lg-11 tituloTexto">
+                            {{objTitulo.menuSeguridad.titulo}}
+                        </div>
+                    </div>
+                </div>
+                <div class="p-col-12 p-md-5 p-lg-5" style="margin-top: 5px;">
+                    <div class="p-grid">
+                        <div class="p-col-12 p-md-11 p-lg-6">
+                            <div class="ui-inputgroup"></div>
+                        </div>
+                        <div class="p-col-3 p-md-1 p-lg-1"></div>
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                        </div>
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-binoculars" class="tablaBotonIcono"
+                                style="height: 25px;" title="Buscar" (click)="buscar()"></button>
+                        </div>
+
+                        <div class="p-col-3 p-md-3 p-lg-2">
+                            <!-- <button type="button" pButton icon="fa fa-download" class="tablaBotonIcono" style="height: 25px;"
+                                    title="Exportar" (click)="exportarDatos()"></button> -->
+                            <p-splitButton icon="fa fa-download" title="Exportar" class="tituloSplit"
+                                style="height: 25px;" (onClick)="exportarDatos()" [model]="objTitulo.listaOtros">
+                            </p-splitButton>
+                        </div>
+
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-question-circle" class="tablaBotonIcono"
+                                style="height: 25px;" title="Ayuda" (click)="ayuda()"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </p-header> -->
+        <!-- </p-panel> -->
+    </div>
+
+    <div *ngIf="objTitulo.tipo == 6" id="tituloVentana">
+        <!-- <p-panel> -->
+        <!-- <p-header> -->
+        <div class="ui-helper-clearfix">
+            <div class="p-grid">
+                <div class="p-col-12 p-md-6 p-lg-6">
+                    <div class="p-grid">
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <i class="fa fa-users" style="font-size: 1.5em; color: #495057; margin-top: 10px;"></i>
+                        </div>
+                        <div class="p-col-11 p-md-11 p-lg-11 tituloTexto">
+                            {{objTitulo.menuSeguridad.titulo}}
+                        </div>
+                    </div>
+                </div>
+                <div class="p-col-12 p-md-5 p-lg-5" style="margin-top: 5px;">
+                    <div class="p-grid">
+                        <div class="p-col-11 p-md-2 p-lg-7">
+                            <div class="ui-inputgroup"></div>
+                        </div>
+                        <div class="p-col-2 p-md-1 p-lg-1"></div>
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-binoculars" class="tablaBotonIcono"
+                                style="height: 25px;" title="Buscar" (click)="buscar()"></button>
+                        </div>
+                        <div class="p-col-2 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-plus" class="tablaBotonIcono"
+                                [disabled]="objTitulo.menuSeguridad.flgAgregar == false" style="height: 25px;"
+                                title="Nuevo" (click)="nuevo()"></button>
+                        </div>
+
+                        <div class="p-col-2 p-md-1 p-lg-1">
+                        </div>
+
+                        <div class="p-col-2 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-question-circle" class="tablaBotonIcono"
+                                style="height: 25px;" title="Ayuda" (click)="ayuda()"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </p-header> -->
+        <!-- </p-panel> -->
+    </div>
+
+    <div *ngIf="objTitulo.tipo == 7" id="tituloVentana">
+        <!-- <p-panel> -->
+        <!-- <p-header> -->
+        <div class="ui-helper-clearfix">
+            <div class="p-grid">
+                <div class="p-col-12 p-md-6 p-lg-6">
+                    <div class="p-grid">
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <i class="fa fa-users" style="font-size: 1.5em; color: #495057; margin-top: 10px;"></i>
+                        </div>
+                        <div class="p-col-11 p-md-11 p-lg-11 tituloTexto">
+                            {{objTitulo.menuSeguridad.titulo}}
+                        </div>
+                    </div>
+                </div>
+                <div class="p-col-12 p-md-5 p-lg-5" style="margin-top: 5px;">
+                    <div class="p-grid">
+                        <div class="p-col-12 p-md-11 p-lg-6">
+                            <div class="ui-inputgroup"></div>
+                        </div>
+                        <div class="p-col-3 p-md-1 p-lg-1"></div>
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-binoculars" class="tablaBotonIcono"
+                                style="height: 25px;" title="Buscar" (click)="buscar()"></button>
+                        </div>
+
+                        <div class="p-col-3 p-md-3 p-lg-2">
+                            <!-- <button type="button" pButton icon="fa fa-download" class="tablaBotonIcono" style="height: 25px;"
+                                    title="Exportar" (click)="exportarDatos()"></button> -->
+                            <p-splitButton icon="fa fa-download" title="Exportar" class="tituloSplit" [appendTo]="body"
+                                style="height: 25px;" (onClick)="exportarDatos()" [model]="objTitulo.listaOtros">
+                            </p-splitButton>
+                        </div>
+
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-question-circle" class="tablaBotonIcono"
+                                style="height: 25px;" title="Ayuda" (click)="ayuda()"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </p-header> -->
+        <!-- </p-panel> -->
+    </div>
+
+    <div *ngIf="objTitulo.tipo == 8" id="tituloVentana">
+        <!-- <p-panel> -->
+        <!-- <p-header> -->
+        <div class="ui-helper-clearfix">
+            <div class="p-grid">
+                <div class="p-col-12 p-md-6 p-lg-6">
+                    <div class="p-grid">
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <i class="fa fa-users" style="font-size: 1.5em; color: #495057; margin-top: 10px;"></i>
+                        </div>
+                        <div class="p-col-11 p-md-11 p-lg-11 tituloTexto">
+                            {{objTitulo.menuSeguridad.titulo}}
+                        </div>
+                    </div>
+                </div>
+                <div class="p-col-12 p-md-5 p-lg-5" style="margin-top: 5px;">
+                    <div class="p-grid">
+                        <div class="p-col-12 p-md-11 p-lg-6">
+                            <div class="ui-inputgroup"></div>
+                        </div>
+
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-binoculars" class="tablaBotonIcono"
+                                style="height: 25px;" title="Buscar" (click)="buscar()"></button>
+                        </div>
+
+                        <div class="p-col-2 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-download" class="tablaBotonIcono"
+                                style="height: 25px;" title="Exportar" (click)="exportarDatos()"></button>
+                        </div>
+
+                        <div class="p-col-3 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-mail-reply" class="tablaBotonIcono"
+                                style="height: 25px;" title="Regresar" (click)="salir()"></button>
+                        </div>
+
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-question-circle" class="tablaBotonIcono"
+                                style="height: 25px;" title="Ayuda" (click)="ayuda()"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </p-header> -->
+        <!-- </p-panel> -->
+    </div>
+
+    <div *ngIf="objTitulo.tipo == 9" id="tituloVentana">
+        <!-- <p-panel> -->
+        <!-- <p-header> -->
+        <div class="ui-helper-clearfix">
+            <div class="p-grid">
+                <div class="p-col-12 p-md-6 p-lg-6">
+                    <div class="p-grid">
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <i class="fa fa-users" style="font-size: 1.5em; color: #495057; margin-top: 10px;"></i>
+                        </div>
+                        <div class="p-col-11 p-md-11 p-lg-11 tituloTexto">
+                            {{objTitulo.menuSeguridad.titulo}}
+                        </div>
+                    </div>
+                </div>
+                <div class="p-col-12 p-md-5 p-lg-5" style="margin-top: 5px;">
+                    <div class="p-grid">
+                        <div class="p-col-12 p-md-11 p-lg-6">
+                            <div class="ui-inputgroup"></div>
+                        </div>
+                        <div class="p-col-3 p-md-1 p-lg-1"></div>
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-binoculars" class="tablaBotonIcono"
+                                style="height: 25px;" title="Buscar" (click)="buscar()"></button>
+                        </div>
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-plus" class="tablaBotonIcono"
+                                [disabled]="objTitulo.menuSeguridad.flgAgregar == false" style="height: 25px;"
+                                title="Nuevo" (click)="nuevo()"></button>
+                        </div>
+
+                        <div class="p-col-3 p-md-3 p-lg-2">
+                            <!-- <button type="button" pButton icon="fa fa-download" class="tablaBotonIcono" style="height: 25px;"
+                                    title="Exportar" (click)="exportarDatos()"></button> -->
+                            <p-splitButton class="tituloSplit"  [appendTo]="body"
+                                style="height: 25px;" [model]="objTitulo.listaOtros"></p-splitButton>
+                        </div>
+
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-question-circle" class="tablaBotonIcono"
+                                style="height: 25px;" title="Ayuda" (click)="ayuda()"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </p-header> -->
+        <!-- </p-panel> -->
+    </div>
+
+    <div *ngIf="objTitulo.tipo == 10" id="tituloVentana">
+        <!-- <p-panel> -->
+        <!-- <p-header> -->
+        <div class="ui-helper-clearfix">
+            <div class="p-grid">
+                <div class="p-col-12 p-md-6 p-lg-6">
+                    <div class="p-grid">
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <i class="fa fa-users" style="font-size: 1.5em; color: #495057; margin-top: 10px;"></i>
+                        </div>
+                        <div class="p-col-11 p-md-11 p-lg-11 tituloTexto">
+                            {{objTitulo.menuSeguridad.titulo}}
+                        </div>
+                    </div>
+                </div>
+                <div class="p-col-12 p-md-5 p-lg-5" style="margin-top: 5px;">
+                    <div class="p-grid">
+                        <div class="p-col-11 p-md-2 p-lg-7">
+                            <div class="ui-inputgroup"></div>
+                        </div>
+                        <div class="p-col-2 p-md-1 p-lg-1"></div>
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-binoculars" class="tablaBotonIcono"
+                                style="height: 25px;" title="Buscar" (click)="buscar()"></button>
+                        </div>
+                        <div class="p-col-2 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-save" class="tablaBotonIcono"
+                                style="height: 25px;" title="Guardar" (click)="guardar()"></button>
+                        </div>
+
+                        <div class="p-col-2 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-download" class="tablaBotonIcono"
+                                style="height: 25px;" title="Exportar" (click)="exportarDatos()"></button>
+                        </div>
+
+                        <div class="p-col-2 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-question-circle" class="tablaBotonIcono"
+                                style="height: 25px;" title="Ayuda" (click)="ayuda()"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </p-header> -->
+        <!-- </p-panel> -->
+    </div>
+
+    <div *ngIf="objTitulo.tipo == 11" id="tituloVentana">
+        <!-- <p-panel> -->
+        <!-- <p-header> -->
+        <div class="ui-helper-clearfix">
+            <div class="p-grid">
+                <div class="p-col-12 p-md-6 p-lg-6">
+                    <div class="p-grid">
+                        <div class="p-col-1 p-md-1 p-lg-1">
+                            <i class="fa fa-users" style="font-size: 1.5em; color: #495057; margin-top: 10px;"></i>
+                        </div>
+                        <div class="p-col-11 p-md-11 p-lg-11 tituloTexto">
+                            {{objTitulo.menuSeguridad.titulo}}
+                        </div>
+                    </div>
+                </div>
+                <div class="p-col-12 p-md-5 p-lg-5" style="margin-top: 5px;">
+                    <div class="p-grid">
+                        <div class="p-col-11 p-md-2 p-lg-7">
+                            <div class="ui-inputgroup"></div>
+                        </div>
+                        <div class="p-col-2 p-md-1 p-lg-1"></div>
+                        <div class="p-col-1 p-md-1 p-lg-1">
+
+                        </div>
+                        <div class="p-col-2 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-plus" class="tablaBotonIcono"
+                                [disabled]="objTitulo.menuSeguridad.flgAgregar == false" style="height: 25px;"
+                                title="Nuevo" (click)="nuevo()"></button>
+                        </div>
+
+                        <div class="p-col-2 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-mail-reply" class="tablaBotonIcono"
+                                style="height: 25px;" title="Regresar" (click)="salir()"></button>
+                        </div>
+
+                        <div class="p-col-2 p-md-1 p-lg-1">
+                            <button type="button" pButton icon="fa fa-question-circle" class="tablaBotonIcono"
+                                style="height: 25px;" title="Ayuda" (click)="ayuda()"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </p-header> -->
+        <!-- </p-panel> -->
+    </div>
+
+</div>
+
+
+<!-- <hr class="solid"> -->
+<!-- <app-dialog-ayuda></app-dialog-ayuda> -->
+<!-- <app-tipoExportar-selector (cargarSeleccionEvent)="seleccionarExportarTipo($event)"></app-tipoExportar-selector> -->
